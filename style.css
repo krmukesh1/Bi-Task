@@ -316,6 +316,22 @@ section.social .social-row img {
   display: flex;
   align-items: center;
 }
+/* contacts */
+.row-contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10%;
+}
+.get-events {
+  flex-basis: 35%;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+.date a {
+  color: #000;
+}
 @media (max-width: 767px) {
   nav {
     padding: 20px;
