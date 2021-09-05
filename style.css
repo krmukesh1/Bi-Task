@@ -286,13 +286,7 @@ section.social {
   padding: 10px 9%;
   align-items: center;
 }
-.social-row {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 10%;
-  background: yellow;
-}
+
 section.social .social-row img {
   max-width: 300px;
   vertical-align: middle;
@@ -316,32 +310,107 @@ section.social .social-row img {
   display: flex;
   align-items: center;
 }
+.social-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 3% 10%;
+  background: #f8d410;
+}
+.article-col {
+  flex-basis: 37%;
+}
 /* contacts */
 .row-contact {
   display: flex;
   justify-content: space-between;
-  padding: 10px 10%;
+  padding: 60px 10%;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+textarea {
+  border: 0;
+  border-bottom: 1px solid #222 !important;
+  width: 316px;
+  padding: 10px 0;
+  margin: 0 30px 30px 0px;
+}
+input[type="text"]:focus-visible,
+[type="email"]:focus-visible,
+input[type="number"]:focus-visible,
+input[type="date"]:focus-visible,
+textarea:focus-visible {
+  outline: 0;
+  cursor: pointer;
+}
+.get-text button.btn {
+  border: none;
+  padding: 10px;
+  background: #f8d410;
+  color: #000;
+  width: 125px;
+  cursor: pointer;
+}
+.get-text button.btn:focus-visible {
+  outline: 0;
 }
 .get-events {
   flex-basis: 35%;
 }
-.date {
+
+.get-text h3,
+.get-events h3 {
+  font-size: 35px;
+  padding: 40px 0;
+}
+.get-events h5 {
+  font-size: 26px;
+  padding: 0 0 24px 0;
+}
+.get-events .date {
   display: flex;
   justify-content: space-between;
+  padding: 24px 0;
 }
-.date a {
-  color: #000;
+.get-events .date h5 {
+  font-size: 24px;
+  padding: 0 20px;
+  color: #f8d410;
+}
+.get-events .date p {
+  padding: 0 43px;
+}
+.get-events .date a {
+  font-size: 12px;
+  padding: 0 20px;
+  color: #f8d410;
 }
 a.more {
   color: #000;
   text-decoration: underline;
+  font-size: 14px;
+  letter-spacing: 4px;
 }
+
+/* footer */
 footer {
   background: #000;
   padding: 30px 10%;
 }
 .fo-content {
   width: 50%;
+}
+.fo-content ul li ::after {
+  content: "";
+  background-color: #f44336;
+  transition: 0.5s;
+  margin-left: 50px;
+  border-right: 2px solid;
+}
+.fo-content ul li:nth-child(3) ::after {
+  display: none;
 }
 @media (max-width: 767px) {
   nav {
