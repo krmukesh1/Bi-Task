@@ -322,7 +322,7 @@ section.social {
   background: #f8d410;
 }
 .article-col {
-  flex-basis: 37%;
+  flex-basis: 35%;
 }
 .article-col .article1 h3 {
   font-size: 35px;
@@ -342,7 +342,7 @@ section.social {
   padding: 20px 0;
 }
 .article-video p {
-  width: 61%;
+  width: 67%;
   padding: 0 0 20px 0;
 }
 .article-video small {
