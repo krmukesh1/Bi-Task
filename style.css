@@ -332,6 +332,17 @@ section.social .social-row img {
 .date a {
   color: #000;
 }
+a.more {
+  color: #000;
+  text-decoration: underline;
+}
+footer {
+  background: #000;
+  padding: 30px 10%;
+}
+.fo-content {
+  width: 50%;
+}
 @media (max-width: 767px) {
   nav {
     padding: 20px;
@@ -410,5 +421,14 @@ section.social .social-row img {
   .social-nav ul.right {
     display: block;
     align-items: center;
+  }
+  .row-contact {
+    flex-direction: column;
+  }
+  .fo-content {
+    width: 100%;
+  }
+  .fo-content ul li {
+    display: inline-block;
   }
 }
