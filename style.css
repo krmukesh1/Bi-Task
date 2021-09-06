@@ -807,6 +807,9 @@ footer {
     display: inline-block;
     width: 0;
   }
+  .text-box1 span.innertext {
+    font-size: 20px;
+  }
   .text-box1 {
     width: 80%;
   }
