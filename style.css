@@ -449,6 +449,7 @@ section.social {
 .article-video h3 {
   font-size: 35px;
   padding: 20px 0;
+  font-family: "Rock Salt", cursive;
 }
 .article-video p {
   width: 67%;
@@ -510,6 +511,7 @@ textarea:focus-visible {
 .get-events h3 {
   font-size: 35px;
   padding: 40px 0;
+  font-family: "Rock Salt", cursive;
 }
 .get-events h5 {
   font-size: 26px;
@@ -524,6 +526,7 @@ textarea:focus-visible {
   font-size: 24px;
   padding: 0 20px;
   color: #f8d410;
+  font-weight: 700;
 }
 .get-events .date p {
   padding: 0 43px;
@@ -537,7 +540,8 @@ a.more {
   color: #000;
   text-decoration: underline;
   font-size: 14px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 /* footer */
