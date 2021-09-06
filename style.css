@@ -610,7 +610,7 @@ footer {
     padding: 0px;
   }
   .banner .content p {
-    width: 35%;
+    width: 55%;
   }
   .card-content {
     width: 100%;
@@ -701,7 +701,7 @@ footer {
     top: 30%;
   }
   .banner .content p {
-    width: 51%;
+    width: 76%;
   }
   .card-content h1 {
     font-size: 30px;
@@ -807,7 +807,7 @@ footer {
     top: 40%;
   }
   .banner .content p {
-    width: 49%;
+    width: 90%;
   }
   .row {
     flex-direction: column;
@@ -909,7 +909,14 @@ footer {
     padding: 30px 0%;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 450px) {
+  .course-col-bottom-text input[type="text"] {
+    width: 200px;
+  }
+  .social-nav ul li {
+    display: inline-block;
+    padding: 8px;
+  }
   .fo-content ul li {
     display: block;
     padding: 10px 50px;
