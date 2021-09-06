@@ -488,6 +488,134 @@ footer {
 .fo-content ul li:nth-child(3) ::after {
   display: none;
 }
+
+/* media queries */
+@media (max-width: 1220px) {
+  nav {
+    padding: 20px;
+  }
+  ul li {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    background-color: #222;
+    transition: 1s;
+    z-index: 2;
+  }
+  nav .fa {
+    display: block;
+  }
+  .nav-links ul li :hover::after {
+    width: 50%;
+  }
+  .nav-links ul li ::after {
+    margin: 0;
+  }
+  .social-nav ul li {
+    display: inline-block !important;
+  }
+  .get-events .date p {
+    padding: 0 0px;
+  }
+  .fo-content ul li {
+    display: inline-block;
+  }
+}
+@media (max-width: 1020px) {
+  .banner .content p {
+    width: 35%;
+  }
+  .course-col-bottom-text input[type="text"] {
+    border: none;
+    width: 220px;
+    padding: 10px;
+  }
+  section.artilce .article-row .article-col .article1 img {
+    max-width: 400px;
+    padding-top: 20px;
+  }
+  section.artilce .article-row .article-col .article1 h3 {
+    font-size: 30px;
+    padding: 20px 0;
+    width: 100%;
+  }
+  .article-video h3 {
+    font-size: 30px;
+  }
+  .article-video p {
+    width: 100%;
+    padding: 0 0 20px 0;
+  }
+  .article2 h5 {
+    font-size: 25px;
+    padding: 0 0 30px 0;
+  }
+  .social-nav ul li {
+    display: inline-block;
+    padding: 11px;
+    list-style: none;
+  }
+
+  .article1 {
+    width: 350px;
+  }
+  .article-col .article1 h3 {
+    font-size: 28px;
+    padding: 20px 0;
+  }
+  .get-text h3,
+  .get-events h3 {
+    font-size: 30px;
+    padding: 40px 0;
+  }
+  .get-events {
+    flex-basis: 50%;
+  }
+  .get-events .date h5 {
+    font-size: 24px;
+    padding: 0 10px;
+    color: #f8d410;
+  }
+  .fo-content {
+    width: 100%;
+  }
+}
+@media (max-width: 820px) {
+  .course-col-bottom {
+    width: 50%;
+  }
+  section.artilce .article-row .article-col .article1 img {
+    max-width: 300px;
+    padding-top: 20px;
+  }
+  section.artilce .article-row .article-col .article1 h3 {
+    font-size: 25px;
+    padding: 20px 0;
+    width: 100%;
+  }
+  .article-video h3 {
+    font-size: 25px;
+  }
+  .article-col .article1 h3 {
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  .get-events {
+    flex-basis: 100%;
+  }
+  .get-events .date a {
+    font-size: 12px;
+    padding: 0 10px;
+    color: #f8d410;
+  }
+}
+
 @media (max-width: 767px) {
   nav {
     padding: 20px;
@@ -545,7 +673,7 @@ footer {
   }
   button.btn {
     width: 110px;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .article-row {
     flex-direction: column;
@@ -587,7 +715,7 @@ footer {
   textarea {
     border: 0;
     border-bottom: 1px solid #222 !important;
-    width: 300px;
+    width: 100%;
     padding: 10px 2%;
     margin: 0 0px 30px 0px;
   }
@@ -602,5 +730,20 @@ footer {
   .fo-content ul li ::after {
     display: 0;
     border: 0;
+  }
+  .course-col-bottom {
+    width: 100%;
+  }
+  .course-col-bottom-text {
+    background: #fff;
+
+    margin: 10px auto 0;
+  }
+}
+@media (max-width: 680px) {
+  .fo-content li {
+    display: inline-block;
+    padding: 20px 0;
+    list-style: none;
   }
 }
