@@ -49,8 +49,11 @@ ul li a {
   height: 2px;
   display: block;
   margin: auto;
-  background-color: #f44336;
+  background-color: #a58423;
   transition: 0.5s;
+}
+a.active {
+  color: #a58423;
 }
 .nav-links ul li :hover::after {
   width: 100%;
